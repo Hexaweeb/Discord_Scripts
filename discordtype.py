@@ -12,6 +12,6 @@ def go():
         for server in servers:
             url = 'https://discordapp.com/api/channels/' + server + '/typing'
             type = requests.post(url, headers=headers)
-    time.sleep(2) #DON'T GO BELOW 2 OR ELSE DISCORD WILL THINK YOU'RE A BOTNET KING
+    time.sleep(9) #DON'T GO BELOW 2 OR ELSE DISCORD WILL THINK YOU'RE A BOTNET KING
  
 go()
